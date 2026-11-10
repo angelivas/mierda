@@ -3,26 +3,22 @@ margin: 0;
 box-sizing: border-box;
 font-family: calibri;}
 
+b {color: black;}
 
 .universal {
+    color: #2b2b2b;
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 450px;
-    padding: 10px;
+    padding: 30px;
     margin: 30px auto;
-    border-image-slice:
-21% 22% 22% 21%;
-border-image-width:
-1.5em 1.5em 1.5em 1.5em;
-border-image-outset:
-0px 0px 0px 0px;
-border-image-repeat:
-round round;
-border-image-source:
-url("https://64.media.tumblr.com/ff21f158b933091cc8d767583dc02c82/7d3f2dc2ab1728ea-b5/s1280x1920/e8c06ef9cac3ffe73295488ab0d2174b3bbc6f4f.pnj");
-border-style:
-solid;
+    border-image-slice: 21% 22% 22% 21%;
+    border-image-width: 1.5em 1.5em 1.5em 1.5em;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round round;
+    border-image-source: url("https://64.media.tumblr.com/ff21f158b933091cc8d767583dc02c82/7d3f2dc2ab1728ea-b5/s1280x1920/e8c06ef9cac3ffe73295488ab0d2174b3bbc6f4f.pnj");
+    border-style: solid;
 }
 
 .lyrnimg {
@@ -34,6 +30,10 @@ solid;
 
 .mainprofile {display: flex;
 gap: 20px;}
+
+h2 {background-color: pink;
+width: 40px;
+color: #ce2255;}
 
 .pfp { 
     flex: 40%;
@@ -62,4 +62,4 @@ flex-direction: column;}
 .gallery {display: block;
 margin: 0 auto;}
 
-.gallery img {width: 80px;}
+.gallery img {width: 70px;}
